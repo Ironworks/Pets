@@ -44,5 +44,12 @@
     XCTAssertTrue(self.testPet.type == PetTypeDog, @"Should be able to set pet type");
 }
 
+- (void)testCanGetpetTypeAsAString {
+    
+    NSString *type = self.testPet.stringForPetType;
+    
+    XCTAssertEqualObjects(type, @"Dog", @"Should be able to get pet type");
+}
+
 
 @end

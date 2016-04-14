@@ -20,4 +20,43 @@
     
     return self;
 }
+
+
+- (NSString *)stringForPetType
+{
+    switch (self.type) {
+        case PetTypeDog:
+            return @"Dog";
+            break;
+            
+        case PetTypeCat:
+            return @"Cat";
+            break;
+            
+        case PetTypeRabbit:
+            return @"Rabbit";
+            break;
+            
+        case PetTypeGoldfish:
+            return @"Goldfish";
+            break;
+        
+        case PetTypeGuineaPig:
+            return @"Guinea Pig";
+            break;
+            
+        case PetTypeSyrianHamster:
+            return @"Syrian Hamster";
+            break;
+            
+        case PetTypeRussianHamster:
+            return @"Russian Hamster";
+            break;
+            
+        default:
+            return @"Unknown";
+            break;
+    }
+}
+
 @end

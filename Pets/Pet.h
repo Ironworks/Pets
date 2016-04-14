@@ -26,4 +26,6 @@ typedef NS_ENUM(NSUInteger, PetType) {
 - (instancetype)initWithName:(NSString *)name
                         type:(PetType)type;
 
+- (NSString *)stringForPetType;
+
 @end
