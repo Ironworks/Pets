@@ -9,10 +9,10 @@
 #import <Foundation/Foundation.h>
 
 @interface NetworkManager : NSObject
-typedef void (^success) (NSArray *applicationsArray);
+typedef void (^success) (NSArray *petsArray);
 typedef void (^failure) (NSString *message, NSUInteger statusCode);
 
 
-- (void)retrieveApplicationsSuccess:(success)success
+- (void)retrievePetsSuccess:(success)success
                             failure:(failure)failure;
 @end

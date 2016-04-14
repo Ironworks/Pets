@@ -53,9 +53,9 @@
     
     XCTestExpectation *expectation = [self expectationWithDescription:@"Should download applications"];
     
-    [self.sut retrieveApplicationsSuccess:^(NSArray *applicationsArray) {
-        XCTAssertTrue(applicationsArray, @"Should contain an array of entries");
-        XCTAssertTrue(applicationsArray.count == 20, @"Should have 20 entries");
+    [self.sut retrievePetsSuccess:^(NSArray *petsArray) {
+        XCTAssertTrue(petsArray, @"Should contain an array of entries");
+        XCTAssertTrue(petsArray.count == 20, @"Should have 20 entries");
         [expectation fulfill];
     } failure:^(NSString *message, NSUInteger statusCode) {
         //Should not see this
@@ -79,7 +79,7 @@
     
     
     XCTestExpectation *expectation = [self expectationWithDescription:@"Should receive 404 error"];
-    [self.sut retrieveApplicationsSuccess:^(NSArray *applicationsArray) {
+    [self.sut retrievePetsSuccess:^(NSArray *applicationsArray) {
         //Should not see this
         XCTAssertTrue(NO, @"Should not get receive applications data");
     } failure:^(NSString *message, NSUInteger statusCode) {

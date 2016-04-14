@@ -44,7 +44,7 @@
 {
     
     __weak typeof (self)weakSelf = self;
-    [self.networkManager retrieveApplicationsSuccess:^(NSArray *petsArray) {
+    [self.networkManager retrievePetsSuccess:^(NSArray *petsArray) {
         
         PetManager *blockSelf = weakSelf;
         

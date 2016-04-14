@@ -34,7 +34,7 @@ NSString * const kURL = @"https://petsAPI.com/allPets";
 
 
 
-- (void)retrieveApplicationsSuccess:(success)success failure:(failure)failure {
+- (void)retrievePetsSuccess:(success)success failure:(failure)failure {
     
     NSURLSessionConfiguration *configuration = [NSURLSessionConfiguration defaultSessionConfiguration];
     AFURLSessionManager *manager = [[AFURLSessionManager alloc] initWithSessionConfiguration:configuration];

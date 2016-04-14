@@ -24,33 +24,35 @@
 
 - (NSString *)stringForPetType
 {
+    
+    NSArray *typesArray = [kPetTypes componentsSeparatedByString:@","];
     switch (self.type) {
         case PetTypeDog:
-            return @"Dog";
+            return typesArray[PetTypeDog];
             break;
             
         case PetTypeCat:
-            return @"Cat";
+            return typesArray[PetTypeCat];
             break;
             
         case PetTypeRabbit:
-            return @"Rabbit";
+            return typesArray[PetTypeRabbit];
             break;
             
         case PetTypeGoldfish:
-            return @"Goldfish";
+            return typesArray[PetTypeGoldfish];
             break;
         
         case PetTypeGuineaPig:
-            return @"Guinea Pig";
+            return typesArray[PetTypeGuineaPig];
             break;
             
         case PetTypeSyrianHamster:
-            return @"Syrian Hamster";
+            return typesArray[PetTypeSyrianHamster];
             break;
             
         case PetTypeRussianHamster:
-            return @"Russian Hamster";
+            return typesArray[PetTypeRussianHamster];
             break;
             
         default:
