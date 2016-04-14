@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		878060605C8D816DF197805E /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CA337500A1A882DA64BA9E64 /* libPods.a */; };
 		D880781A8A111114721A5F39 /* libPods-Pets.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F548C6D74D484914ED643B19 /* libPods-Pets.a */; };
 		E73A0161D64A3BED43A41D0F /* libPods-PetsTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F5B7F40327E13264E9F1EEEE /* libPods-PetsTests.a */; };
 		F0F597591CBFB183009C7AEC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F0F597581CBFB183009C7AEC /* main.m */; };
@@ -19,6 +20,11 @@
 		F0F597801CBFB7E4009C7AEC /* PetTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F0F5977F1CBFB7E4009C7AEC /* PetTests.m */; };
 		F0F597841CBFB826009C7AEC /* Pet.m in Sources */ = {isa = PBXBuildFile; fileRef = F0F597831CBFB826009C7AEC /* Pet.m */; };
 		F0F597851CBFB826009C7AEC /* Pet.m in Sources */ = {isa = PBXBuildFile; fileRef = F0F597831CBFB826009C7AEC /* Pet.m */; };
+		F0F597871CBFBF28009C7AEC /* NetworkingManagerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F0F597861CBFBF28009C7AEC /* NetworkingManagerTests.m */; };
+		F0F5978F1CBFC196009C7AEC /* NetworkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F0F5978E1CBFC196009C7AEC /* NetworkManager.m */; };
+		F0F597901CBFC196009C7AEC /* NetworkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F0F5978E1CBFC196009C7AEC /* NetworkManager.m */; };
+		F0F597931CBFCA93009C7AEC /* pets.json in Resources */ = {isa = PBXBuildFile; fileRef = F0F597921CBFCA93009C7AEC /* pets.json */; };
+		F0F597941CBFCA93009C7AEC /* pets.json in Resources */ = {isa = PBXBuildFile; fileRef = F0F597921CBFCA93009C7AEC /* pets.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +41,7 @@
 		1D99FE64A7FE805B11D89EA7 /* Pods-PetsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PetsTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PetsTests/Pods-PetsTests.debug.xcconfig"; sourceTree = "<group>"; };
 		38272C6F8EDB3B6A2F6CCE83 /* Pods-PetsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PetsTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PetsTests/Pods-PetsTests.release.xcconfig"; sourceTree = "<group>"; };
 		B196474A723A449EB7442400 /* Pods-Pets.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pets.release.xcconfig"; path = "Pods/Target Support Files/Pods-Pets/Pods-Pets.release.xcconfig"; sourceTree = "<group>"; };
+		CA337500A1A882DA64BA9E64 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		E0AC1E71DDD1C394483B0996 /* Pods-Pets.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pets.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Pets/Pods-Pets.debug.xcconfig"; sourceTree = "<group>"; };
 		F0F597541CBFB183009C7AEC /* Pets.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pets.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F0F597581CBFB183009C7AEC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -53,6 +60,10 @@
 		F0F5977F1CBFB7E4009C7AEC /* PetTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PetTests.m; sourceTree = "<group>"; };
 		F0F597821CBFB826009C7AEC /* Pet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Pet.h; sourceTree = "<group>"; };
 		F0F597831CBFB826009C7AEC /* Pet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Pet.m; sourceTree = "<group>"; };
+		F0F597861CBFBF28009C7AEC /* NetworkingManagerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetworkingManagerTests.m; sourceTree = "<group>"; };
+		F0F5978D1CBFC196009C7AEC /* NetworkManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NetworkManager.h; path = Networking/NetworkManager.h; sourceTree = "<group>"; };
+		F0F5978E1CBFC196009C7AEC /* NetworkManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NetworkManager.m; path = Networking/NetworkManager.m; sourceTree = "<group>"; };
+		F0F597921CBFCA93009C7AEC /* pets.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = pets.json; sourceTree = "<group>"; };
 		F548C6D74D484914ED643B19 /* libPods-Pets.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Pets.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5B7F40327E13264E9F1EEEE /* libPods-PetsTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PetsTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -63,6 +74,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D880781A8A111114721A5F39 /* libPods-Pets.a in Frameworks */,
+				878060605C8D816DF197805E /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,6 +94,7 @@
 			children = (
 				F548C6D74D484914ED643B19 /* libPods-Pets.a */,
 				F5B7F40327E13264E9F1EEEE /* libPods-PetsTests.a */,
+				CA337500A1A882DA64BA9E64 /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -120,6 +133,7 @@
 		F0F597561CBFB183009C7AEC /* Pets */ = {
 			isa = PBXGroup;
 			children = (
+				F0F597881CBFC0BD009C7AEC /* Networking */,
 				F0F597811CBFB7ED009C7AEC /* Model */,
 				F0F5975A1CBFB183009C7AEC /* AppDelegate.h */,
 				F0F5975B1CBFB183009C7AEC /* AppDelegate.m */,
@@ -147,8 +161,10 @@
 		F0F597731CBFB183009C7AEC /* PetsTests */ = {
 			isa = PBXGroup;
 			children = (
+				F0F597911CBFCA84009C7AEC /* Fixtures */,
 				F0F597761CBFB183009C7AEC /* Info.plist */,
 				F0F5977F1CBFB7E4009C7AEC /* PetTests.m */,
+				F0F597861CBFBF28009C7AEC /* NetworkingManagerTests.m */,
 			);
 			path = PetsTests;
 			sourceTree = "<group>";
@@ -160,6 +176,23 @@
 				F0F597831CBFB826009C7AEC /* Pet.m */,
 			);
 			name = Model;
+			sourceTree = "<group>";
+		};
+		F0F597881CBFC0BD009C7AEC /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				F0F5978D1CBFC196009C7AEC /* NetworkManager.h */,
+				F0F5978E1CBFC196009C7AEC /* NetworkManager.m */,
+			);
+			name = Networking;
+			sourceTree = "<group>";
+		};
+		F0F597911CBFCA84009C7AEC /* Fixtures */ = {
+			isa = PBXGroup;
+			children = (
+				F0F597921CBFCA93009C7AEC /* pets.json */,
+			);
+			name = Fixtures;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -249,6 +282,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F0F5976A1CBFB183009C7AEC /* LaunchScreen.storyboard in Resources */,
+				F0F597931CBFCA93009C7AEC /* pets.json in Resources */,
 				F0F597671CBFB183009C7AEC /* Assets.xcassets in Resources */,
 				F0F597651CBFB183009C7AEC /* Main.storyboard in Resources */,
 			);
@@ -258,6 +292,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F0F597941CBFCA93009C7AEC /* pets.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -336,7 +371,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Pets/Pods-Pets-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		C91E93E1FEE9BB08E7071E75 /* Embed Pods Frameworks */ = {
@@ -365,6 +400,7 @@
 				F0F5975F1CBFB183009C7AEC /* MasterViewController.m in Sources */,
 				F0F597591CBFB183009C7AEC /* main.m in Sources */,
 				F0F597621CBFB183009C7AEC /* DetailViewController.m in Sources */,
+				F0F5978F1CBFC196009C7AEC /* NetworkManager.m in Sources */,
 				F0F597841CBFB826009C7AEC /* Pet.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -373,6 +409,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F0F597901CBFC196009C7AEC /* NetworkManager.m in Sources */,
+				F0F597871CBFBF28009C7AEC /* NetworkingManagerTests.m in Sources */,
 				F0F597801CBFB7E4009C7AEC /* PetTests.m in Sources */,
 				F0F597851CBFB826009C7AEC /* Pet.m in Sources */,
 			);

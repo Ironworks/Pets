@@ -1,5 +1,6 @@
 platform :ios, '9.0'
 
+pod "OHHTTPStubs"
 
 target 'Pets' do
    pod "AFNetworking"
@@ -9,5 +10,4 @@ end
 
 target 'PetsTests' do
    pod "OCMock"
-   pod "OHHTTPStubs"
 end

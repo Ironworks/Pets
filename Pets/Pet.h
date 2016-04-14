@@ -9,7 +9,7 @@
 #import <Foundation/Foundation.h>
 
 typedef NS_ENUM(NSUInteger, PetType) {
-    PetTypeDog,
+    PetTypeDog = 1,
     PetTypeCat,
     PetTypeRabbit,
     PetTypeSyrianHamster,
