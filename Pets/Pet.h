@@ -18,7 +18,7 @@ typedef NS_ENUM(NSUInteger, PetType) {
     PetTypeGoldfish
 };
 
-static NSString *const kPetTypes = @"Dog, Cat, Rabbit, Syrian Hamster, Russian Hamster, Guinea Pig, Goldfish";
+static NSString *const kPetTypes = @"Dog,Cat,Rabbit,Syrian Hamster,Russian Hamster,Guinea Pig,Goldfish";
 
 @interface Pet : NSObject
 

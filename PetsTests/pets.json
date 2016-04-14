@@ -3,83 +3,83 @@
       "pets" : [
         {
           "name" : "Spot",
-          "type" : 1
+          "type" : 0
         },
         {
           "name" :"Penfold",
-          "type" : 5
+          "type" : 4
         },
         {
           "name" : "Tigger",
-          "type" : 2
+          "type" : 3
         },
         {
           "name" : "Eric",
-          "type" : 7
-        },
-        {
-          "name" : "Merlin",
-          "type" : 3
-        },
-        {
-          "name" : "Thumper",
-          "type" : 3
-        },
-        {
-          "name" : "Patch",
-          "type" : 1
-        },
-        {
-          "name" : "Kevin",
-          "type" : 4
-        },
-        {
-          "name" : "Pecas",
-          "type" : 1
-        },
-        {
-          "name" : "McAcvity",
-          "type" : 2
-        },
-        {
-          "name" : "Gordon",
           "type" : 6
         },
         {
-          "name" : "Ceefor",
+          "name" : "Merlin",
           "type" : 2
         },
         {
-          "name" : "Deefor",
-          "type" : 1
+          "name" : "Thumper",
+          "type" : 2
         },
         {
-          "name" : "Nemo",
-          "type" : 7
+          "name" : "Patch",
+          "type" : 0
         },
         {
-          "name" : "Fred",
+          "name" : "Kevin",
           "type" : 3
         },
         {
+          "name" : "Pecas",
+          "type" : 0
+        },
+        {
+          "name" : "McAcvity",
+          "type" : 1
+        },
+        {
+          "name" : "Gordon",
+          "type" : 5
+        },
+        {
+          "name" : "Ceefor",
+          "type" : 1
+        },
+        {
+          "name" : "Deefor",
+          "type" : 0
+        },
+        {
+          "name" : "Nemo",
+          "type" : 6
+        },
+        {
+          "name" : "Fred",
+          "type" : 2
+        },
+        {
           "name" : "Spike",
-          "type" : 4
+          "type" : 3
         },
         {
           "name" : "Doug",
-          "type" : 7
+          "type" : 6
         },
         {
           "name" : "Disndale",
-          "type" : 7
+          "type" : 6
         },
         {
           "name" : "Pinky",
-          "type" : 5
+          "type" : 4
         },
         {
           "name" : "Perky",
-          "type" : 5
+          "type" : 4
         }
       ]
    }
