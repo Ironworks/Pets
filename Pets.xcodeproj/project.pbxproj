@@ -25,6 +25,11 @@
 		F0F597901CBFC196009C7AEC /* NetworkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F0F5978E1CBFC196009C7AEC /* NetworkManager.m */; };
 		F0F597931CBFCA93009C7AEC /* pets.json in Resources */ = {isa = PBXBuildFile; fileRef = F0F597921CBFCA93009C7AEC /* pets.json */; };
 		F0F597941CBFCA93009C7AEC /* pets.json in Resources */ = {isa = PBXBuildFile; fileRef = F0F597921CBFCA93009C7AEC /* pets.json */; };
+		F0F597961CBFDB41009C7AEC /* petManagerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F0F597951CBFDB41009C7AEC /* petManagerTests.m */; };
+		F0F5979A1CBFDFCE009C7AEC /* PetManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F0F597991CBFDFCE009C7AEC /* PetManager.m */; };
+		F0F5979B1CBFDFCE009C7AEC /* PetManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F0F597991CBFDFCE009C7AEC /* PetManager.m */; };
+		F0F5979E1CBFE2B7009C7AEC /* PetBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = F0F5979D1CBFE2B7009C7AEC /* PetBuilder.m */; };
+		F0F5979F1CBFE2B7009C7AEC /* PetBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = F0F5979D1CBFE2B7009C7AEC /* PetBuilder.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,6 +69,11 @@
 		F0F5978D1CBFC196009C7AEC /* NetworkManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NetworkManager.h; path = Networking/NetworkManager.h; sourceTree = "<group>"; };
 		F0F5978E1CBFC196009C7AEC /* NetworkManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NetworkManager.m; path = Networking/NetworkManager.m; sourceTree = "<group>"; };
 		F0F597921CBFCA93009C7AEC /* pets.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = pets.json; sourceTree = "<group>"; };
+		F0F597951CBFDB41009C7AEC /* petManagerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = petManagerTests.m; sourceTree = "<group>"; };
+		F0F597981CBFDFCE009C7AEC /* PetManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PetManager.h; sourceTree = "<group>"; };
+		F0F597991CBFDFCE009C7AEC /* PetManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PetManager.m; sourceTree = "<group>"; };
+		F0F5979C1CBFE2B7009C7AEC /* PetBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PetBuilder.h; sourceTree = "<group>"; };
+		F0F5979D1CBFE2B7009C7AEC /* PetBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PetBuilder.m; sourceTree = "<group>"; };
 		F548C6D74D484914ED643B19 /* libPods-Pets.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Pets.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5B7F40327E13264E9F1EEEE /* libPods-PetsTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PetsTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -133,6 +143,7 @@
 		F0F597561CBFB183009C7AEC /* Pets */ = {
 			isa = PBXGroup;
 			children = (
+				F0F597971CBFDC04009C7AEC /* Pet Manager */,
 				F0F597881CBFC0BD009C7AEC /* Networking */,
 				F0F597811CBFB7ED009C7AEC /* Model */,
 				F0F5975A1CBFB183009C7AEC /* AppDelegate.h */,
@@ -165,6 +176,7 @@
 				F0F597761CBFB183009C7AEC /* Info.plist */,
 				F0F5977F1CBFB7E4009C7AEC /* PetTests.m */,
 				F0F597861CBFBF28009C7AEC /* NetworkingManagerTests.m */,
+				F0F597951CBFDB41009C7AEC /* petManagerTests.m */,
 			);
 			path = PetsTests;
 			sourceTree = "<group>";
@@ -174,6 +186,8 @@
 			children = (
 				F0F597821CBFB826009C7AEC /* Pet.h */,
 				F0F597831CBFB826009C7AEC /* Pet.m */,
+				F0F5979C1CBFE2B7009C7AEC /* PetBuilder.h */,
+				F0F5979D1CBFE2B7009C7AEC /* PetBuilder.m */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -193,6 +207,15 @@
 				F0F597921CBFCA93009C7AEC /* pets.json */,
 			);
 			name = Fixtures;
+			sourceTree = "<group>";
+		};
+		F0F597971CBFDC04009C7AEC /* Pet Manager */ = {
+			isa = PBXGroup;
+			children = (
+				F0F597981CBFDFCE009C7AEC /* PetManager.h */,
+				F0F597991CBFDFCE009C7AEC /* PetManager.m */,
+			);
+			name = "Pet Manager";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -400,8 +423,10 @@
 				F0F5975F1CBFB183009C7AEC /* MasterViewController.m in Sources */,
 				F0F597591CBFB183009C7AEC /* main.m in Sources */,
 				F0F597621CBFB183009C7AEC /* DetailViewController.m in Sources */,
+				F0F5979A1CBFDFCE009C7AEC /* PetManager.m in Sources */,
 				F0F5978F1CBFC196009C7AEC /* NetworkManager.m in Sources */,
 				F0F597841CBFB826009C7AEC /* Pet.m in Sources */,
+				F0F5979E1CBFE2B7009C7AEC /* PetBuilder.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -410,9 +435,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				F0F597901CBFC196009C7AEC /* NetworkManager.m in Sources */,
+				F0F5979B1CBFDFCE009C7AEC /* PetManager.m in Sources */,
+				F0F597961CBFDB41009C7AEC /* petManagerTests.m in Sources */,
 				F0F597871CBFBF28009C7AEC /* NetworkingManagerTests.m in Sources */,
 				F0F597801CBFB7E4009C7AEC /* PetTests.m in Sources */,
 				F0F597851CBFB826009C7AEC /* Pet.m in Sources */,
+				F0F5979F1CBFE2B7009C7AEC /* PetBuilder.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
