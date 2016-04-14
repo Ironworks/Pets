@@ -1,14 +1,13 @@
 platform :ios, '9.0'
 
 
-target 'IWMTest' do
+target 'Pets' do
    pod "AFNetworking"
    pod "SDWebImage"
    pod "MBProgressHUD", "~> 0.9.2"
 end
 
-target 'IWMTestTests' do
+target 'PetsTests' do
    pod "OCMock"
    pod "OHHTTPStubs"
 end
-
