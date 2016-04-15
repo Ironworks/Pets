@@ -69,6 +69,7 @@
     }];
 }
 
+//Test fails due to faking back-end. Need to find a better solution to this.
 - (void)testnetworkErrorRetrieveingApplications {
     
     [OHHTTPStubs stubRequestsPassingTest:^BOOL(NSURLRequest *request) {
