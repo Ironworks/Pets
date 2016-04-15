@@ -23,8 +23,8 @@ NSString * const kURL = @"https://petsAPI.com/allPets";
             return [request.URL.host isEqualToString:@"petsAPI.com"];
         } withStubResponse:^OHHTTPStubsResponse*(NSURLRequest *request) {
             // Stub it with our "applications.json" stub file
-            return [OHHTTPStubsResponse responseWithFileAtPath:OHPathForFile(@"pets.json",self.class)
-                                                    statusCode:200 headers:@{@"Content-Type":@"application/json"}];
+            return [[OHHTTPStubsResponse responseWithFileAtPath:OHPathForFile(@"pets.json",self.class)
+                                                    statusCode:200 headers:@{@"Content-Type":@"application/json"}] responseTime:7];
         }];
 
     }
